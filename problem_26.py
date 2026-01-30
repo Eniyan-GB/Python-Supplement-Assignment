@@ -2,7 +2,7 @@
 # Find and fix the error
 
 def add_item(lst, item):
-    lst = lst + [item]
+    lst.append(item)  # modifies the original list
     return lst
 
 my_list = [1, 2, 3]
