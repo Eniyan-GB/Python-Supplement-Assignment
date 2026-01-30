@@ -7,6 +7,6 @@ def gcd(a, b):
     return a
 
 def lcm(a, b):
-    return (a * b) // gcd(a, b)
+    return abs(a * b) // gcd(a, b)  # ensure positive result
 
 print(f"LCM of 12 and 18: {lcm(12, 18)}")
